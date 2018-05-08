@@ -19,7 +19,7 @@ public class Anonymous_Inner_Class extends Frame {
 	
 	
 	public static void main(String args[])
-	{
+	{       //not an an
 		Anonymous_Inner_Class obj = new Anonymous_Inner_Class();
 		obj.setSize(400, 200);
 		obj.setVisible(true);
@@ -29,6 +29,7 @@ public class Anonymous_Inner_Class extends Frame {
 class myclass implements ActionListener
 {
 	@Override
+	
 	public void actionPerformed(ActionEvent e) {
 		System.exit(1);		
 	}
